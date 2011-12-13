@@ -1,8 +1,17 @@
+/*
+ *  purGLRenderer.h
+ *  pur
+ *
+ *  Created by John Lattin on 12/12/11.
+ *  Copyright 2011 __MyCompanyName__. All rights reserved.
+ *
+ */
+
 #ifndef PUR_GL_RENDERER_H
 #define PUR_GL_RENDERER_H
 
 #include "purGL.h"
-#include "inkHeader.h"
+#include "purHeader.h"
 
 #include "purGLState.h"
 

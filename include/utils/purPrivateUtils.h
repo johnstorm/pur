@@ -9,7 +9,7 @@ extern "C" {
 #endif
 
 typedef float			purGLfloat;
-typedef unsigned int  purGLubyte;
+typedef unsigned char   purGLubyte;
 
 #pragma mark -
 #pragma mark Macros
@@ -57,9 +57,9 @@ inkInline void purSwapv(void *val0, void *val1, size_t size)
 //	val1 = memcpy(val1, temp, size);
 
 	size_t index;
-	unsigned int *byte0;
-	unsigned int *byte1;
-	for (index = 0, byte0 = (unsigned int *)val0, byte1 = (unsigned int *)val1; index < size; ++index, ++byte0, ++byte1)
+	unsigned char *byte0;
+	unsigned char *byte1;
+	for (index = 0, byte0 = (unsigned char *)val0, byte1 = (unsigned char *)val1; index < size; ++index, ++byte0, ++byte1)
 	{
 		*byte0 ^= *byte1;
 		*byte1 ^= *byte0;
@@ -76,10 +76,10 @@ void *purStridedMemcpy(void *dest, void *src, size_t size, size_t len, size_t de
 	}
 
 	size_t index;
-	unsigned int *destData;
-	unsigned int *srcData;
+	unsigned char *destData;
+	unsigned char *srcData;
 
-	for (index = 0, destData = (unsigned int *)dest, srcData = (unsigned int *)src; index < len; ++index, destData += destStride, srcData += srcStride)
+	for (index = 0, destData = (unsigned char *)dest, srcData = (unsigned char *)src; index < len; ++index, destData += destStride, srcData += srcStride)
 	{
 		memcpy(destData, srcData, size);
 	}

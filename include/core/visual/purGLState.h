@@ -1,3 +1,12 @@
+/*
+ *  purGLState.h
+ *  pur
+ *
+ *  Created by John Lattin on 12/12/11.
+ *  Copyright 2011 __MyCompanyName__. All rights reserved.
+ *
+ */
+
 #ifndef _PUR_GL_STATE_H_
 #define _PUR_GL_STATE_H_
 

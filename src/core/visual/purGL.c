@@ -1,3 +1,12 @@
+/*
+ *  purGL.c
+ *  pur
+ *
+ *  Created by John Lattin on 12/12/11.
+ *  Copyright 2011 __MyCompanyName__. All rights reserved.
+ *
+ */
+
 #include "purGL.h"
 #include "purGLPrivate.h"
 #include "purGLRenderer.h"

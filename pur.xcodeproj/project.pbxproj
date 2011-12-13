@@ -128,20 +128,24 @@
 		0A994F3714956C370089A4CD /* cpSweep1D.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A994F0014956C370089A4CD /* cpSweep1D.c */; };
 		0A994F3814956C370089A4CD /* cpVect.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A994F0114956C370089A4CD /* cpVect.c */; };
 		0A994F3914956C370089A4CD /* prime.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A994F0214956C370089A4CD /* prime.h */; };
-		0A994F6F149571820089A4CD /* purGL.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A994F5D149571820089A4CD /* purGL.h */; };
-		0A994F70149571820089A4CD /* purGLInclude.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A994F5E149571820089A4CD /* purGLInclude.h */; };
-		0A994F71149571820089A4CD /* purGLPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A994F5F149571820089A4CD /* purGLPrivate.h */; };
-		0A994F72149571820089A4CD /* purGLRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A994F60149571820089A4CD /* purGLRenderer.h */; };
-		0A994F73149571820089A4CD /* purGLState.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A994F61149571820089A4CD /* purGLState.h */; };
-		0A994F74149571820089A4CD /* purGLStatePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A994F62149571820089A4CD /* purGLStatePrivate.h */; };
-		0A994F75149571820089A4CD /* purColorTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A994F64149571820089A4CD /* purColorTransform.h */; };
-		0A994F76149571820089A4CD /* purGLUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A994F65149571820089A4CD /* purGLUtils.h */; };
-		0A994F77149571820089A4CD /* purPrivateUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A994F66149571820089A4CD /* purPrivateUtils.h */; };
-		0A994F78149571820089A4CD /* purGL.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A994F6A149571820089A4CD /* purGL.c */; };
-		0A994F79149571820089A4CD /* purGLRenderer.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A994F6B149571820089A4CD /* purGLRenderer.c */; };
-		0A994F7A149571820089A4CD /* purColorTransform.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A994F6D149571820089A4CD /* purColorTransform.c */; };
-		0A994F7B149571820089A4CD /* purGLUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A994F6E149571820089A4CD /* purGLUtils.c */; };
 		0A994F8B149572900089A4CD /* pur_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 0A994F8A149572900089A4CD /* pur_Prefix.pch */; };
+		0A99504914957A9A0089A4CD /* purEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A99502C14957A9A0089A4CD /* purEngine.h */; };
+		0A99504E14957A9A0089A4CD /* purGL.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A99503214957A9A0089A4CD /* purGL.h */; };
+		0A99504F14957A9A0089A4CD /* purGLInclude.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A99503314957A9A0089A4CD /* purGLInclude.h */; };
+		0A99505014957A9A0089A4CD /* purGLPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A99503414957A9A0089A4CD /* purGLPrivate.h */; };
+		0A99505114957A9A0089A4CD /* purGLRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A99503514957A9A0089A4CD /* purGLRenderer.h */; };
+		0A99505214957A9A0089A4CD /* purGLState.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A99503614957A9A0089A4CD /* purGLState.h */; };
+		0A99505314957A9A0089A4CD /* purGLStatePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A99503714957A9A0089A4CD /* purGLStatePrivate.h */; };
+		0A99505414957A9A0089A4CD /* purColorTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A99503914957A9A0089A4CD /* purColorTransform.h */; };
+		0A99505714957A9A0089A4CD /* purEngine.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A99503E14957A9A0089A4CD /* purEngine.c */; };
+		0A99505C14957A9A0089A4CD /* purGL.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A99504414957A9A0089A4CD /* purGL.c */; };
+		0A99505D14957A9A0089A4CD /* purGLRenderer.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A99504514957A9A0089A4CD /* purGLRenderer.c */; };
+		0A99505E14957A9A0089A4CD /* purColorTransform.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A99504714957A9A0089A4CD /* purColorTransform.c */; };
+		0A99505F14957A9A0089A4CD /* purGLUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A99504814957A9A0089A4CD /* purGLUtils.c */; };
+		0A9950611496F6800089A4CD /* purTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A9950601496F6800089A4CD /* purTypes.h */; };
+		0A9950631496F8F80089A4CD /* purHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A9950621496F8F80089A4CD /* purHeader.h */; };
+		0A99506B1497022F0089A4CD /* purGLUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A99506A1497022F0089A4CD /* purGLUtils.h */; };
+		0A9950711497026B0089A4CD /* purPrivateUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A9950701497026B0089A4CD /* purPrivateUtils.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -267,20 +271,24 @@
 		0A994F0014956C370089A4CD /* cpSweep1D.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpSweep1D.c; sourceTree = "<group>"; };
 		0A994F0114956C370089A4CD /* cpVect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpVect.c; sourceTree = "<group>"; };
 		0A994F0214956C370089A4CD /* prime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prime.h; sourceTree = "<group>"; };
-		0A994F5D149571820089A4CD /* purGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purGL.h; sourceTree = "<group>"; };
-		0A994F5E149571820089A4CD /* purGLInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purGLInclude.h; sourceTree = "<group>"; };
-		0A994F5F149571820089A4CD /* purGLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purGLPrivate.h; sourceTree = "<group>"; };
-		0A994F60149571820089A4CD /* purGLRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purGLRenderer.h; sourceTree = "<group>"; };
-		0A994F61149571820089A4CD /* purGLState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purGLState.h; sourceTree = "<group>"; };
-		0A994F62149571820089A4CD /* purGLStatePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purGLStatePrivate.h; sourceTree = "<group>"; };
-		0A994F64149571820089A4CD /* purColorTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purColorTransform.h; sourceTree = "<group>"; };
-		0A994F65149571820089A4CD /* purGLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purGLUtils.h; sourceTree = "<group>"; };
-		0A994F66149571820089A4CD /* purPrivateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purPrivateUtils.h; sourceTree = "<group>"; };
-		0A994F6A149571820089A4CD /* purGL.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = purGL.c; sourceTree = "<group>"; };
-		0A994F6B149571820089A4CD /* purGLRenderer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = purGLRenderer.c; sourceTree = "<group>"; };
-		0A994F6D149571820089A4CD /* purColorTransform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = purColorTransform.c; sourceTree = "<group>"; };
-		0A994F6E149571820089A4CD /* purGLUtils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = purGLUtils.c; sourceTree = "<group>"; };
 		0A994F8A149572900089A4CD /* pur_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pur_Prefix.pch; sourceTree = "<group>"; };
+		0A99502C14957A9A0089A4CD /* purEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purEngine.h; sourceTree = "<group>"; };
+		0A99503214957A9A0089A4CD /* purGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purGL.h; sourceTree = "<group>"; };
+		0A99503314957A9A0089A4CD /* purGLInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purGLInclude.h; sourceTree = "<group>"; };
+		0A99503414957A9A0089A4CD /* purGLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purGLPrivate.h; sourceTree = "<group>"; };
+		0A99503514957A9A0089A4CD /* purGLRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purGLRenderer.h; sourceTree = "<group>"; };
+		0A99503614957A9A0089A4CD /* purGLState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purGLState.h; sourceTree = "<group>"; };
+		0A99503714957A9A0089A4CD /* purGLStatePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purGLStatePrivate.h; sourceTree = "<group>"; };
+		0A99503914957A9A0089A4CD /* purColorTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purColorTransform.h; sourceTree = "<group>"; };
+		0A99503E14957A9A0089A4CD /* purEngine.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = purEngine.c; sourceTree = "<group>"; };
+		0A99504414957A9A0089A4CD /* purGL.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = purGL.c; sourceTree = "<group>"; };
+		0A99504514957A9A0089A4CD /* purGLRenderer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = purGLRenderer.c; sourceTree = "<group>"; };
+		0A99504714957A9A0089A4CD /* purColorTransform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = purColorTransform.c; sourceTree = "<group>"; };
+		0A99504814957A9A0089A4CD /* purGLUtils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = purGLUtils.c; sourceTree = "<group>"; };
+		0A9950601496F6800089A4CD /* purTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purTypes.h; sourceTree = "<group>"; };
+		0A9950621496F8F80089A4CD /* purHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purHeader.h; sourceTree = "<group>"; };
+		0A99506A1497022F0089A4CD /* purGLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purGLUtils.h; sourceTree = "<group>"; };
+		0A9950701497026B0089A4CD /* purPrivateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purPrivateUtils.h; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libpur.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libpur.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -309,8 +317,8 @@
 			isa = PBXGroup;
 			children = (
 				0A994F8A149572900089A4CD /* pur_Prefix.pch */,
-				0A994F5A149571820089A4CD /* include */,
-				0A994F67149571820089A4CD /* src */,
+				0A99502A14957A9A0089A4CD /* include */,
+				0A99503C14957A9A0089A4CD /* src */,
 				0A994EC614956C370089A4CD /* chipmunk */,
 				0A91A7F71495439400F0B300 /* libink */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
@@ -526,77 +534,81 @@
 			path = constraints;
 			sourceTree = "<group>";
 		};
-		0A994F5A149571820089A4CD /* include */ = {
+		0A99502A14957A9A0089A4CD /* include */ = {
 			isa = PBXGroup;
 			children = (
-				0A994F5B149571820089A4CD /* core */,
-				0A994F63149571820089A4CD /* utils */,
+				0A99502B14957A9A0089A4CD /* core */,
+				0A99503814957A9A0089A4CD /* utils */,
 			);
 			path = include;
 			sourceTree = "<group>";
 		};
-		0A994F5B149571820089A4CD /* core */ = {
+		0A99502B14957A9A0089A4CD /* core */ = {
 			isa = PBXGroup;
 			children = (
-				0A994F5C149571820089A4CD /* visual */,
+				0A9950621496F8F80089A4CD /* purHeader.h */,
+				0A9950601496F6800089A4CD /* purTypes.h */,
+				0A99502C14957A9A0089A4CD /* purEngine.h */,
+				0A99503114957A9A0089A4CD /* visual */,
 			);
 			path = core;
 			sourceTree = "<group>";
 		};
-		0A994F5C149571820089A4CD /* visual */ = {
+		0A99503114957A9A0089A4CD /* visual */ = {
 			isa = PBXGroup;
 			children = (
-				0A994F5D149571820089A4CD /* purGL.h */,
-				0A994F5E149571820089A4CD /* purGLInclude.h */,
-				0A994F5F149571820089A4CD /* purGLPrivate.h */,
-				0A994F60149571820089A4CD /* purGLRenderer.h */,
-				0A994F61149571820089A4CD /* purGLState.h */,
-				0A994F62149571820089A4CD /* purGLStatePrivate.h */,
+				0A99503214957A9A0089A4CD /* purGL.h */,
+				0A99503314957A9A0089A4CD /* purGLInclude.h */,
+				0A99503414957A9A0089A4CD /* purGLPrivate.h */,
+				0A99503514957A9A0089A4CD /* purGLRenderer.h */,
+				0A99503614957A9A0089A4CD /* purGLState.h */,
+				0A99503714957A9A0089A4CD /* purGLStatePrivate.h */,
 			);
 			path = visual;
 			sourceTree = "<group>";
 		};
-		0A994F63149571820089A4CD /* utils */ = {
+		0A99503814957A9A0089A4CD /* utils */ = {
 			isa = PBXGroup;
 			children = (
-				0A994F64149571820089A4CD /* purColorTransform.h */,
-				0A994F65149571820089A4CD /* purGLUtils.h */,
-				0A994F66149571820089A4CD /* purPrivateUtils.h */,
+				0A99506A1497022F0089A4CD /* purGLUtils.h */,
+				0A9950701497026B0089A4CD /* purPrivateUtils.h */,
+				0A99503914957A9A0089A4CD /* purColorTransform.h */,
 			);
 			path = utils;
 			sourceTree = "<group>";
 		};
-		0A994F67149571820089A4CD /* src */ = {
+		0A99503C14957A9A0089A4CD /* src */ = {
 			isa = PBXGroup;
 			children = (
-				0A994F68149571820089A4CD /* core */,
-				0A994F6C149571820089A4CD /* utils */,
+				0A99503D14957A9A0089A4CD /* core */,
+				0A99504614957A9A0089A4CD /* utils */,
 			);
 			path = src;
 			sourceTree = "<group>";
 		};
-		0A994F68149571820089A4CD /* core */ = {
+		0A99503D14957A9A0089A4CD /* core */ = {
 			isa = PBXGroup;
 			children = (
-				0A994F69149571820089A4CD /* visual */,
+				0A99503E14957A9A0089A4CD /* purEngine.c */,
+				0A99504314957A9A0089A4CD /* visual */,
 			);
 			path = core;
 			sourceTree = "<group>";
 		};
-		0A994F69149571820089A4CD /* visual */ = {
+		0A99504314957A9A0089A4CD /* visual */ = {
 			isa = PBXGroup;
 			children = (
-				0A994F6A149571820089A4CD /* purGL.c */,
-				0A994F6B149571820089A4CD /* purGLRenderer.c */,
+				0A99504414957A9A0089A4CD /* purGL.c */,
+				0A99504514957A9A0089A4CD /* purGLRenderer.c */,
 			);
 			path = visual;
 			sourceTree = "<group>";
 		};
-		0A994F6C149571820089A4CD /* utils */ = {
+		0A99504614957A9A0089A4CD /* utils */ = {
 			isa = PBXGroup;
 			children = (
-				0A994F6D149571820089A4CD /* purColorTransform.c */,
-				0A994F6E149571820089A4CD /* purGLUtils.c */,
+				0A99504714957A9A0089A4CD /* purColorTransform.c */,
+				0A99504814957A9A0089A4CD /* purGLUtils.c */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -668,16 +680,19 @@
 				0A994F1A14956C370089A4CD /* cpSpatialIndex.h in Headers */,
 				0A994F1B14956C370089A4CD /* cpVect.h in Headers */,
 				0A994F3914956C370089A4CD /* prime.h in Headers */,
-				0A994F6F149571820089A4CD /* purGL.h in Headers */,
-				0A994F70149571820089A4CD /* purGLInclude.h in Headers */,
-				0A994F71149571820089A4CD /* purGLPrivate.h in Headers */,
-				0A994F72149571820089A4CD /* purGLRenderer.h in Headers */,
-				0A994F73149571820089A4CD /* purGLState.h in Headers */,
-				0A994F74149571820089A4CD /* purGLStatePrivate.h in Headers */,
-				0A994F75149571820089A4CD /* purColorTransform.h in Headers */,
-				0A994F76149571820089A4CD /* purGLUtils.h in Headers */,
-				0A994F77149571820089A4CD /* purPrivateUtils.h in Headers */,
 				0A994F8B149572900089A4CD /* pur_Prefix.pch in Headers */,
+				0A99504914957A9A0089A4CD /* purEngine.h in Headers */,
+				0A99504E14957A9A0089A4CD /* purGL.h in Headers */,
+				0A99504F14957A9A0089A4CD /* purGLInclude.h in Headers */,
+				0A99505014957A9A0089A4CD /* purGLPrivate.h in Headers */,
+				0A99505114957A9A0089A4CD /* purGLRenderer.h in Headers */,
+				0A99505214957A9A0089A4CD /* purGLState.h in Headers */,
+				0A99505314957A9A0089A4CD /* purGLStatePrivate.h in Headers */,
+				0A99505414957A9A0089A4CD /* purColorTransform.h in Headers */,
+				0A9950611496F6800089A4CD /* purTypes.h in Headers */,
+				0A9950631496F8F80089A4CD /* purHeader.h in Headers */,
+				0A99506B1497022F0089A4CD /* purGLUtils.h in Headers */,
+				0A9950711497026B0089A4CD /* purPrivateUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -790,10 +805,11 @@
 				0A994F3614956C370089A4CD /* cpSpatialIndex.c in Sources */,
 				0A994F3714956C370089A4CD /* cpSweep1D.c in Sources */,
 				0A994F3814956C370089A4CD /* cpVect.c in Sources */,
-				0A994F78149571820089A4CD /* purGL.c in Sources */,
-				0A994F79149571820089A4CD /* purGLRenderer.c in Sources */,
-				0A994F7A149571820089A4CD /* purColorTransform.c in Sources */,
-				0A994F7B149571820089A4CD /* purGLUtils.c in Sources */,
+				0A99505714957A9A0089A4CD /* purEngine.c in Sources */,
+				0A99505C14957A9A0089A4CD /* purGL.c in Sources */,
+				0A99505D14957A9A0089A4CD /* purGLRenderer.c in Sources */,
+				0A99505E14957A9A0089A4CD /* purColorTransform.c in Sources */,
+				0A99505F14957A9A0089A4CD /* purGLUtils.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

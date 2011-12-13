@@ -1,3 +1,11 @@
+/*
+ *  purGLRenderer.c
+ *  pur
+ *
+ *  Created by John Lattin on 12/12/11.
+ *  Copyright 2011 __MyCompanyName__. All rights reserved.
+ *
+ */
 
 #include "purGLRenderer.h"
 #include "purGLPrivate.h"
@@ -585,7 +593,7 @@ void purGLConsolidateBuffer()
 	purGLHadDrawnElements = false;
 }
 
-inkInline void purGLDraw()
+purInline void purGLDraw()
 {
 	// If the array is larger then max vertices, we should flush it in chunks.
 	// This is best done by flushing up until MAX_VERTICES - 2, then again from
