@@ -44,10 +44,12 @@ inkInline void purSwap(int *val0, int *val1)
 	*val1 ^= *val0;
 	*val0 ^= *val1;
 }
+
 inkInline void purSwapf(float *val0, float *val1)
 {
 	purSwap((int *)(val0), (int *)(val1));
 }
+
 inkInline void purSwapv(void *val0, void *val1, size_t size)
 {
 //	void *temp = alloca(size);

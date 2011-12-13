@@ -2,7 +2,7 @@
 #ifndef _PUR_GL_UTILS_H_
 #define _PUR_GL_UTILS_H_
 
-#include "inkHeader.h"
+#include "purHeader.h"
 
 #include "purGLInclude.h"
 #include "inkGeometry.h"
@@ -73,55 +73,55 @@ typedef purGLColorVertices* purGLColorVerticesRef;
 }
 #endif
 
-inkExtern purGLVertex purGLVertexMake(GLfloat x, GLfloat y);
-inkExtern purGLColorVertex purGLColorVertexMake(GLfloat x, GLfloat y, GLubyte r, GLubyte g, GLubyte b, GLubyte a);
-inkExtern purGLTextureVertex purGLTextureVertexMake(GLfloat x, GLfloat y, GLfloat s, GLfloat t);
-inkExtern purGLColoredTextureVertex purGLColoredTextureVertexMake(GLfloat x, GLfloat y, GLubyte r, GLubyte g, GLubyte b, GLubyte a, GLfloat s, GLfloat t);
-inkExtern inkMatrix inkMatrixMake(GLfloat a, GLfloat b, GLfloat c, GLfloat d, GLfloat tx, GLfloat ty);
-inkExtern purGLAABB purGLAABBMake(GLint xMin, GLint yMin, GLint xMax, GLint yMax);
-inkExtern purGLAABBf purGLAABBfMakeWithInit();
-inkExtern purGLAABBf purGLAABBfMake(GLfloat xMin, GLfloat yMin, GLfloat xMax, GLfloat yMax);
+purExtern purGLVertex purGLVertexMake(GLfloat x, GLfloat y);
+purExtern purGLColorVertex purGLColorVertexMake(GLfloat x, GLfloat y, GLubyte r, GLubyte g, GLubyte b, GLubyte a);
+purExtern purGLTextureVertex purGLTextureVertexMake(GLfloat x, GLfloat y, GLfloat s, GLfloat t);
+purExtern purGLColoredTextureVertex purGLColoredTextureVertexMake(GLfloat x, GLfloat y, GLubyte r, GLubyte g, GLubyte b, GLubyte a, GLfloat s, GLfloat t);
+purExtern inkMatrix inkMatrixMake(GLfloat a, GLfloat b, GLfloat c, GLfloat d, GLfloat tx, GLfloat ty);
+purExtern purGLAABB purGLAABBMake(GLint xMin, GLint yMin, GLint xMax, GLint yMax);
+purExtern purGLAABBf purGLAABBfMakeWithInit();
+purExtern purGLAABBf purGLAABBfMake(GLfloat xMin, GLfloat yMin, GLfloat xMax, GLfloat yMax);
 
-inkExtern purGLColorVerticesRef purGLColorVerticesRefMake(GLuint vertexCount, GLubyte red, GLubyte green, GLubyte blue, GLubyte alpha);
-inkExtern void purGLColorVerticesRefFree(purGLColorVertices* ref);
-inkExtern purGLColorVertices purGLColorVerticesMake(GLuint vertexCount, GLubyte red, GLubyte green, GLubyte blue, GLubyte alpha);
-inkExtern void purGLColorVerticesFree(purGLColorVertices *colorVertices);
+purExtern purGLColorVerticesRef purGLColorVerticesRefMake(GLuint vertexCount, GLubyte red, GLubyte green, GLubyte blue, GLubyte alpha);
+purExtern void purGLColorVerticesRefFree(purGLColorVertices* ref);
+purExtern purGLColorVertices purGLColorVerticesMake(GLuint vertexCount, GLubyte red, GLubyte green, GLubyte blue, GLubyte alpha);
+purExtern void purGLColorVerticesFree(purGLColorVertices *colorVertices);
 
-inkExtern const purGLAABB purGLAABBReset;
-inkExtern void purGLAABBUpdate(purGLAABB *toBeUpdated, purGLAABB *checkVals);
-inkExtern void purGLAABBExpand(purGLAABB *aabb, inkPoint point);
-inkExtern void purGLAABBExpandv(purGLAABB *aabb, GLint x, GLint y);
-inkExtern void purGLAABBInflate(purGLAABB *aabb, inkPoint point);
-inkExtern void purGLAABBInflatev(purGLAABB *aabb, GLint x, GLint y);
-inkExtern bool purGLAABBIsReset(purGLAABB *aabb);
-inkExtern bool purGLAABBContainsPoint(purGLAABB *aabb, inkPoint point);
-inkExtern bool purGLAABBContainsPointv(purGLAABB *aabb, GLint x, GLint y);
-inkExtern bool purGLAABBIsEqual(purGLAABB *aabb1, purGLAABB *aabb2);
+purExtern const purGLAABB purGLAABBReset;
+purExtern void purGLAABBUpdate(purGLAABB *toBeUpdated, purGLAABB *checkVals);
+purExtern void purGLAABBExpand(purGLAABB *aabb, inkPoint point);
+purExtern void purGLAABBExpandv(purGLAABB *aabb, GLint x, GLint y);
+purExtern void purGLAABBInflate(purGLAABB *aabb, inkPoint point);
+purExtern void purGLAABBInflatev(purGLAABB *aabb, GLint x, GLint y);
+purExtern bool purGLAABBIsReset(purGLAABB *aabb);
+purExtern bool purGLAABBContainsPoint(purGLAABB *aabb, inkPoint point);
+purExtern bool purGLAABBContainsPointv(purGLAABB *aabb, GLint x, GLint y);
+purExtern bool purGLAABBIsEqual(purGLAABB *aabb1, purGLAABB *aabb2);
 
-inkExtern const purGLAABBf purGLAABBfReset;
-inkExtern void purGLAABBfUpdate(purGLAABBf *toBeUpdated, purGLAABBf *checkVals);
-inkExtern void purGLAABBfExpand(purGLAABBf *aabb, inkPoint point);
-inkExtern void purGLAABBfExpandv(purGLAABBf *aabb, GLfloat x, GLfloat y);
-inkExtern void purGLAABBfInflate(purGLAABBf *aabb, inkPoint point);
-inkExtern void purGLAABBfInflatev(purGLAABBf *aabb, GLfloat x, GLfloat y);
-inkExtern bool purGLAABBfIsReset(purGLAABBf *aabb);
-inkExtern bool purGLAABBfContainsPoint(purGLAABBf *aabb, inkPoint point);
-inkExtern bool purGLAABBfContainsPointv(purGLAABBf *aabb, GLfloat x, GLfloat y);
-inkExtern bool purGLAABBfIsEqual(purGLAABBf *aabb1, purGLAABBf *aabb2);
+purExtern const purGLAABBf purGLAABBfReset;
+purExtern void purGLAABBfUpdate(purGLAABBf *toBeUpdated, purGLAABBf *checkVals);
+purExtern void purGLAABBfExpand(purGLAABBf *aabb, inkPoint point);
+purExtern void purGLAABBfExpandv(purGLAABBf *aabb, GLfloat x, GLfloat y);
+purExtern void purGLAABBfInflate(purGLAABBf *aabb, inkPoint point);
+purExtern void purGLAABBfInflatev(purGLAABBf *aabb, GLfloat x, GLfloat y);
+purExtern bool purGLAABBfIsReset(purGLAABBf *aabb);
+purExtern bool purGLAABBfContainsPoint(purGLAABBf *aabb, inkPoint point);
+purExtern bool purGLAABBfContainsPointv(purGLAABBf *aabb, GLfloat x, GLfloat y);
+purExtern bool purGLAABBfIsEqual(purGLAABBf *aabb1, purGLAABBf *aabb2);
 
-inkExtern inkPoint inkMatrixConvertPoint(inkMatrix matrix, inkPoint point);
-inkExtern void inkMatrixConvertPointv(inkMatrix matrix, GLfloat *x, GLfloat *y);
-inkExtern void inkMatrixConvertPoints(inkMatrix matrix, inkPoint *points, GLuint count);
-inkExtern void inkMatrixConvertPointsv(inkMatrix matrix, GLfloat *xs, GLfloat *ys, GLuint count);
-inkExtern void inkMatrixConvert4Points(inkMatrix matrix, inkPoint *point0, inkPoint *point1, inkPoint *point2, inkPoint *point3);
-inkExtern void inkMatrixConvert4Pointsv(inkMatrix matrix, GLfloat *x0, GLfloat *y0, GLfloat *x1, GLfloat *y1, GLfloat *x2, GLfloat *y2, GLfloat *x3, GLfloat *y3);
-inkExtern inkRect inkMatrixConvertRect(inkMatrix matrix, inkRect rect);
-inkExtern void inkMatrixConvertRectv(inkMatrix matrix, GLfloat *x, GLfloat *y, GLfloat *width, GLfloat *height);
-inkExtern purGLAABB inkMatrixConvertAABB(inkMatrix matrix, purGLAABB aabb);
-inkExtern void inkMatrixConvertAABBv(inkMatrix matrix, GLint *xMin, GLint *yMin, GLint *xMax, GLint *yMax);
-inkExtern purGLAABBf inkMatrixConvertAABBf(inkMatrix matrix, purGLAABBf aabb);
-inkExtern void inkMatrixConvertAABBfv(inkMatrix matrix, GLfloat *xMin, GLfloat *yMin, GLfloat *xMax, GLfloat *yMax);
+purExtern inkPoint inkMatrixConvertPoint(inkMatrix matrix, inkPoint point);
+purExtern void inkMatrixConvertPointv(inkMatrix matrix, GLfloat *x, GLfloat *y);
+purExtern void inkMatrixConvertPoints(inkMatrix matrix, inkPoint *points, GLuint count);
+purExtern void inkMatrixConvertPointsv(inkMatrix matrix, GLfloat *xs, GLfloat *ys, GLuint count);
+purExtern void inkMatrixConvert4Points(inkMatrix matrix, inkPoint *point0, inkPoint *point1, inkPoint *point2, inkPoint *point3);
+purExtern void inkMatrixConvert4Pointsv(inkMatrix matrix, GLfloat *x0, GLfloat *y0, GLfloat *x1, GLfloat *y1, GLfloat *x2, GLfloat *y2, GLfloat *x3, GLfloat *y3);
+purExtern inkRect inkMatrixConvertRect(inkMatrix matrix, inkRect rect);
+purExtern void inkMatrixConvertRectv(inkMatrix matrix, GLfloat *x, GLfloat *y, GLfloat *width, GLfloat *height);
+purExtern purGLAABB inkMatrixConvertAABB(inkMatrix matrix, purGLAABB aabb);
+purExtern void inkMatrixConvertAABBv(inkMatrix matrix, GLint *xMin, GLint *yMin, GLint *xMax, GLint *yMax);
+purExtern purGLAABBf inkMatrixConvertAABBf(inkMatrix matrix, purGLAABBf aabb);
+purExtern void inkMatrixConvertAABBfv(inkMatrix matrix, GLfloat *xMin, GLfloat *yMin, GLfloat *xMax, GLfloat *yMax);
 
-inkExtern bool _purGLRectContainsAABB(_purGLRect *rect, purGLAABB *aabb);
+purExtern bool _purGLRectContainsAABB(_purGLRect *rect, purGLAABB *aabb);
 
 #endif

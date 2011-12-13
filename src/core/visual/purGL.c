@@ -28,10 +28,10 @@ GLuint purGLRenderBuffer = 0;
 #define _purGLMatrixStackSize 16
 #define _purGLColorStackSize 16
 
-inkInline GLuint purGLGLStateTopurState(GLenum cap);
-inkInline GLenum purGLpurStateToGLState(GLuint cap);
-inkInline GLuint purGLGLClientStateTopurClientState(GLenum array);
-inkInline GLuint purGLpurClientStateToGLClientState(GLenum array);
+purInline GLuint purGLGLStateTopurState(GLenum cap);
+purInline GLenum purGLpurStateToGLState(GLuint cap);
+purInline GLuint purGLGLClientStateTopurClientState(GLenum array);
+purInline GLuint purGLpurClientStateToGLClientState(GLenum array);
 
 inkMatrix purGLMatrices[_purGLMatrixStackSize];
 purColorTransform purGLColors[_purGLColorStackSize];
@@ -1086,7 +1086,7 @@ void purGLTexEnvxv(GLenum target, GLenum pname, const GLfixed *params)
 	glTexEnvxv(target, pname, params);
 }
 
-inkInline void purGLDefineVertex(purGLColoredTextureVertex *point,
+purInline void purGLDefineVertex(purGLColoredTextureVertex *point,
 							   GLfloat *pointSize,
 							   const GLfloat **verticesPtr,
 							   const GLfloat **texCoordsPtr,
@@ -2087,7 +2087,7 @@ void _purGLStateGetIntegerv(purGLState *state, GLenum pname, GLint *params)
 	}
 }
 
-inkInline GLuint purGLGLStateTopurState(GLenum cap)
+purInline GLuint purGLGLStateTopurState(GLenum cap)
 {
 	switch (cap)
 	{
@@ -2104,7 +2104,7 @@ inkInline GLuint purGLGLStateTopurState(GLenum cap)
 	return 0;
 }
 
-inkInline GLenum purGLpurStateToGLState(GLuint cap)
+purInline GLenum purGLpurStateToGLState(GLuint cap)
 {
 	switch (cap)
 	{
@@ -2121,7 +2121,7 @@ inkInline GLenum purGLpurStateToGLState(GLuint cap)
 	return 0;
 }
 
-inkInline GLuint purGLGLClientStateTopurClientState(GLenum array)
+purInline GLuint purGLGLClientStateTopurClientState(GLenum array)
 {
 	switch (array)
 	{
@@ -2138,7 +2138,7 @@ inkInline GLuint purGLGLClientStateTopurClientState(GLenum array)
 	return 0;
 }
 
-inkInline GLuint purGLpurClientStateToGLClientState(GLenum array)
+purInline GLuint purGLpurClientStateToGLClientState(GLenum array)
 {
 	switch (array)
 	{
@@ -2155,7 +2155,7 @@ inkInline GLuint purGLpurClientStateToGLClientState(GLenum array)
 	return 0;
 }
 
-inkInline GLuint purSizeOfGLEnum(GLenum type)
+purInline GLuint purSizeOfGLEnum(GLenum type)
 {
 	switch (type)
 	{

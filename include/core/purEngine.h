@@ -17,6 +17,9 @@
 
 typedef struct
 {
+	purFileLoaderFunction fileLoaderFunc;
+	purExitFunction exitFunc;
+	purSetFPSFunction setFPSFunc;
 } purInfo;
 
 typedef struct
@@ -39,5 +42,11 @@ purExtern void purInputEnable(purContext* pur, purType type);
 purExtern void purInputDisable(purContext* pur, purType type);
 
 purExtern void purSetViewState(purContext* pur, inkSize size);
+
+// MARK: -
+// MARK: Frame
+// MARK: -
+
+purExtern void 
 
 #endif

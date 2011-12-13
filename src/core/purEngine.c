@@ -7,7 +7,7 @@
  *
  */
 
-#include "purEngine.h"
+#include "../../include/core/purEngine.h"
 
 purContext* purCreate(purInfo info)
 {
